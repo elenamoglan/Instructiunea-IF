@@ -6,4 +6,4 @@ zn, ln, an = map(int, input("Data nasterii este ").split('.'))
 ar = a - an
 if (l<ln) or (l==ln and z<zn):
     ar -= 1
-print(ar)
+print('Numarul de ani impliniti este ', ar)
